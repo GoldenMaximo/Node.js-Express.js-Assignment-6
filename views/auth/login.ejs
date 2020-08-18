@@ -8,7 +8,7 @@
 
     <main>
         <%- include('../includes/error-flash-message.ejs') %>
-        <form class="login-form" action="/login" method="POST">
+        <form class="login-form" action="/login" method="POST" novalidate>
             <div class="form-control">
                 <label for="title">Email</label>
                 <input type="email" name="email" id="email">
